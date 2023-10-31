@@ -1,0 +1,132 @@
+body{
+    background: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position:100px 50px;
+}
+
+.play_btn{
+    display:inline-block;
+    text-decoration: none;
+    margin-top: 250px;
+    margin-left: 850px;
+    padding: 32px 70px;
+    background: #130F49;
+    border:2px solid transparent;
+    border-radius: 15px;
+    color:whitesmoke;
+    font-size: 64px;
+    font-weight: 700;
+    transition:.4s;
+}
+
+.play_btn:hover{
+    background: transparent;
+    border:2px solid #130F49;
+    color:#130F49;
+}
+
+.playerbox2{
+    display:none;
+    /* background: #82A0A2; */
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 350px;
+    color:#130F49;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.chance{
+    display:none;
+    color:#130F49;
+}
+
+.tried{
+    display:none;
+    color:brown;
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+.playerbox1{
+    display:none;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 350px;
+    color:#130F49;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.player1{
+    display:none;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 300px;
+    color:#130F49;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.player2{
+    display:none;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 300px;
+    color:#130F49;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+input{
+    width:200px;
+    padding: 16px 32px;
+    border: 1px solid #130F49;
+    background: transparent;
+    border-radius: 10px;
+    outline:none;
+    color:#130F49;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.p1btn{
+    display:inline-block;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 16px 32px;
+    background: #130F49;
+    border:1px solid transparent;
+    border-radius: 5px;
+    color:whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
+    transition:.4s;
+}
+
+.p2btn{
+    display:inline-block;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 16px 32px;
+    background: #130F49;
+    border:1px solid transparent;
+    border-radius: 5px;
+    color:whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
+    transition:.4s;
+}
+
+.p1btn:hover{
+    background: transparent;
+    border:1px solid #130F49;
+    color:#130F49;
+}
+
+.p2btn:hover{
+    background: transparent;
+    border:1px solid #130F49;
+    color:#130F49;
+}
