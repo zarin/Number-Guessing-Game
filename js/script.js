@@ -56,6 +56,7 @@ p2btn.addEventListener('click',()=>{
 
     if(p2value ==''){
         error2.innerHTML = ("Please Give me a Value");
+        chance.innerHTML = `Attempt ${--attempt}`;
     }
     else if(p2value > 9){
         error2.innerHTML = ("Please Give me Value less than 10");
